@@ -60,14 +60,18 @@ if($enviado == 1 && $contenido == 1) {
   exit;
 } else if(empty($nombre)) {
   $error = 'Por favor, ingrese su nombre.';
-} else if(empty($alcalde)) {
-  $error = 'Por favor, seleccione su alcalde';
+} else if(empty($apellido)) {
+  $error = 'Por favor, seleccione su apellido';
 }else if(empty($sexo)) {
   $error = 'Por favor, ingrese su sexo.';
-} else if(empty($direccion)) {
-  $error = 'Por favor, ingrese su direccion.';
-} else if(empty($concejal)) {
-  $error = 'Por favor, ingrese su concejalito.';
+} else if(empty($region)) {
+  $error = 'Por favor, seleccione su región de procedencia.';
+} else if(empty($fechNaci)) {
+  $error = 'Por favor, ingrese su fecha de nacimineto.';
+} else if(empty($correo)){
+  $error = 'Por favor, ingrese su correo electrónico'
+} else if(empty($area)){
+  $error = 'Por favor, marque su(s) áreas de interés.'
 }
 // Vista de error
 if(!empty($error)) {
