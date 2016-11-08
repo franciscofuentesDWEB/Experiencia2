@@ -402,10 +402,9 @@
                                             <label>Correo electrónico</label>
                                             <input class="form-control" placeholder="Ingrese su e-mail" name="correo">
                                         </div>
-                                         
                                         <div class="form-group">
                                             <label>Sexo</label>
-                                            <div class="radio">
+                                            <div class="radio" required/>
                                                 <label>
                                                     <input type="radio" name="sexo" id="optionsRadios1" value="option1" checked>Femenino
                                                 </label>
@@ -451,6 +450,10 @@
                                         <div class="form-group">
                                             <label>Color</label>
                                             <input class="form-control" placeholder="Ingrese su color favorito" name="color">
+                                        </div>
+                                         <div class="form-group">
+                                            <label>Ingrese su ULR</label>
+                                            <input class="form-control" placeholder="Ingrese su página" type="text" name="nombre" required/>
                                         </div>
                                         <button type="submit" class="btn btn-default">Enviar información</button>
                                         <button type="reset" class="btn btn-default">Reset información</button>
