@@ -103,9 +103,8 @@ if(!empty($error)) {
                                 echo "Femenino";
                              } elseif ($sexo == 'option2'){
                                 echo "Masculino";
-                             } else {
-                                echo "Helicoptero Apache";
-                             } ?></b>
+                             } 
+                             ?></b>
       </p>
     </div>
     <div class="panel-footer">
