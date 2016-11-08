@@ -92,20 +92,38 @@ if(!empty($error)) {
       <h3 class="panel-title">Datos enviados</h3>
     </div>
     <div class="panel-body">
-      <p>Bienvenido(a) <b><?php echo $nombre; ?></b>,</p>   
+      <p>Muchas gracias <b><?php echo $nombre; ?><?php echo $apellido; ?></b>,</p>   
       <p>
-        Tu alcalde es: <b><?php echo $alcalde; ?></b>
+        Fecha de nacimiento: <b><?php echo $fechNaci; ?></b>
       </p>
       <p>
-        Tu concejal es es: <b><?php echo $concejal; ?></b>
+        Región: <b><?php echo $region; ?></b>
       </p>
       <p>
-        Tu sexo es: <b><?php if($sexo == 'option1'){
+        Sexo: <b><?php if($sexo == 'option1'){
                                 echo "Femenino";
                              } elseif ($sexo == 'option2'){
                                 echo "Masculino";
                              } 
                              ?></b>
+      </p>
+      <p>
+        Area de interés: <b><?php if($area == '1'){
+                                echo "Ciencia";
+                             } elseif ($area == '2'){
+                                echo "Deporte";
+                             } elseif($area == '3'){
+                                echo "Pintura Rupestre";
+                             } elseif($area == '4'){
+                                echo "Videos de gatos";
+                             }
+                             ?></b>
+      </p>
+      <p>
+        Correo electrónico: <b><?php echo $correo; ?></b>
+      </p>
+      <p>
+        Color favorito: <b><?php echo $color; ?></b>
       </p>
     </div>
     <div class="panel-footer">
