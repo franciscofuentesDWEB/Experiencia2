@@ -10,7 +10,7 @@ function Filtro($texto) {
   return htmlspecialchars(trim($texto), ENT_QUOTES);
 }
 // Variables
-$directorio = '/Applications/XAMPP/htdocs/Experiencia2';
+//$directorio = '/Applications/XAMPP/htdocs/Experiencia2';
 $enviado = isset($_POST['enviado']) ? (int) $_POST['enviado'] : 0;
 $anio = isset($_POST['anio']) ? (int) $_POST['anio'] : 0;
 $region = isset($_POST['region']) ? Filtro($_POST['region']) : '';
