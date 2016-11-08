@@ -96,7 +96,7 @@ if(!empty($error)) {
       <h3 class="panel-title">Datos enviados</h3>
     </div>
     <div class="panel-body">
-      <p>Muchas gracias <b><?php echo $nombre; ?> <?php echo $apellido; ?></b>,</p>   
+      <p>Muchas gracias <b><?php echo $nombre; ?> <?php echo $apellido; ?></b></p>   
       <p>
         Fecha de nacimiento: <b><?php echo $fechNaci; ?></b>
       </p>
@@ -120,6 +120,8 @@ if(!empty($error)) {
                                 echo "Pintura Rupestre";
                              } elseif($area == '4'){
                                 echo "Videos de gatos";
+                             } elseif (($area == '1')&&($area == '2')){
+                                echo "Ciencia", "Deporte";
                              }
                              ?></b>
       </p>
