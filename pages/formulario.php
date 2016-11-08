@@ -96,7 +96,7 @@ if(!empty($error)) {
       <h3 class="panel-title">Datos enviados</h3>
     </div>
     <div class="panel-body">
-      <p>Muchas gracias <b><?php echo $nombre; ?><?php echo $apellido; ?></b>,</p>   
+      <p>Muchas gracias <b><?php echo $nombre; ?> <?php echo $apellido; ?></b>,</p>   
       <p>
         Fecha de nacimiento: <b><?php echo $fechNaci; ?></b>
       </p>
