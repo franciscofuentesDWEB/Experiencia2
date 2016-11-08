@@ -69,9 +69,9 @@ if($enviado == 1 && $contenido == 1) {
 } else if(empty($fechNaci)) {
   $error = 'Por favor, ingrese su fecha de nacimineto.';
 } else if(empty($correo)){
-  $error = 'Por favor, ingrese su correo electrónico'
+  $error = 'Por favor, ingrese su correo electrónico';
 } else if(empty($area)){
-  $error = 'Por favor, marque su(s) áreas de interés.'
+  $error = 'Por favor, marque su(s) áreas de interés.';
 }
 // Vista de error
 if(!empty($error)) {
