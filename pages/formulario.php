@@ -16,6 +16,7 @@ $anio = isset($_POST['anio']) ? (int) $_POST['anio'] : 0;
 $region = isset($_POST['region']) ? Filtro($_POST['region']) : '';
 $area= isset($_POST['area']) ? Filtro($_POST['area']) : '';
 $nombre = isset($_POST['nombre']) ? Filtro($_POST['nombre']) : '';
+$color = isset($_POST['color']) ? Filtro($_POST['color']) : '';
 $apellido = isset($_POST['apellido']) ? Filtro($_POST['apellido']) : '';
 $fechNaci = isset($_POST['fechNaci']) ? Filtro($_POST['fechNaci']) : '';
 $correo = isset($_POST['correo']) ? Filtro($_POST['correo']) : '';
