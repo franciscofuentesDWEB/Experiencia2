@@ -10,14 +10,14 @@ function Filtro($texto) {
   return htmlspecialchars(trim($texto), ENT_QUOTES);
 }
 // Variables
-$directorio = '/Applications/XAMPP/htdocs/FE3';
+$directorio = '/Applications/XAMPP/htdocs/Experiencia1';
 $enviado = isset($_POST['enviado']) ? (int) $_POST['enviado'] : 0;
 $anio = isset($_POST['anio']) ? (int) $_POST['anio'] : 0;
-$alcalde = isset($_POST['alcalde']) ? Filtro($_POST['alcalde']) : '';
+$region = isset($_POST['region']) ? Filtro($_POST['region']) : '';
 $concejal= isset($_POST['concejal']) ? Filtro($_POST['concejal']) : '';
 $nombre = isset($_POST['nombre']) ? Filtro($_POST['nombre']) : '';
 $apellido = isset($_POST['apellido']) ? Filtro($_POST['apellido']) : '';
-$direccion = isset($_POST['direccion']) ? Filtro($_POST['direccion']) : '';
+$fechNaci = isset($_POST['fechNaci']) ? Filtro($_POST['fechNaci']) : '';
 $correo = isset($_POST['correo']) ? Filtro($_POST['correo']) : '';
 $comuna = isset($_POST['comuna']) ? Filtro($_POST['comuna']) : '';
 $sexo = isset($_POST['sexo']) ? Filtro($_POST['sexo']) : '';
